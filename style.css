@@ -526,8 +526,7 @@
 
 
 @media only screen and (max-width:600px) {
-    .fs-row {
-    }
+   
 
     .secound-row {
         display: flex;
@@ -535,8 +534,20 @@
         justify-content: center;
         margin-right: 200px;
     }
+
+    .data-div {
+    }
     .img-1 {
         height: 300px;
+    }
+
+    .last-div {
+        margin: 0;
+        padding: 0;
+    }
+
+    .last-div p {
+        margin: 0;
     }
 
     .img-2 {
@@ -582,15 +593,6 @@
     .row-sec-4  {
         height: 400px;
     }
-
-    /* .parent-div  {
-        border: 3px solid rgb(255, 0, 0) !important;
-    } */
-
-
-
-
-
 }
 
 
